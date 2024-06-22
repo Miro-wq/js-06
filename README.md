@@ -1,4 +1,4 @@
-## (https://img.shields.io/badge/About%20the%20project-8A2BE2)
+## [About the project](https://img.shields.io/badge/About%20the%20project-8A2BE2)
 
 This project involves solving a set of exercises in JavaScript.
 
