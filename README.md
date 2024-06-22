@@ -1,4 +1,4 @@
-## [About the project]
+## About the project
 
 This project involves solving a set of exercises in JavaScript.
 
