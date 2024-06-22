@@ -12,7 +12,7 @@ By completing the exercises, i've gained practical experience in front-end web d
 
 3. **DOM Manipulation**: Exploring methods to interact with the Document Object Model (DOM), including selecting elements, modifying their attributes, and updating their content based on user input or predefined data.
 
-4. **Styling with CSS**: Integrated CSS styles dynamically based on user actions, improving the visual appearance and interactivity of web pages.
+4. **Styling with CSS**: Integrating CSS styles dynamically based on user actions, improving the visual appearance and interactivity of web pages.
 
 5. **Form Handling**: Implementing form validation, submission handling, and data collection using JavaScript, ensuring user inputs are validated and processed correctly.
 
@@ -26,10 +26,7 @@ These exercises provided a foundational understanding of front-end web developme
 
 ## Related
 
-Here are some related projects
-
-[Gallery Project](https://github.com/Miro-wq/goit-js-hw-07)
-
+Here are some related projects [Gallery Project](https://github.com/Miro-wq/goit-js-hw-07)
 
 ## 🛠 Tools
 HTML, CSS, JavaScript
