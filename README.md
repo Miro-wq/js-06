@@ -34,9 +34,9 @@ Here are some related projects
 ## 🛠 Tools
 HTML, CSS, JavaScript
 
-# The key features and tasks implemented in this project are as follows:
+The key features and tasks implemented in this project are as follows:
 
-# Exercise 1
+## Exercise 1
 The HTML code contains a list of categories in ul#categories.
 
 ```html
@@ -74,7 +74,7 @@ The HTML code contains a list of categories in ul#categories.
 Write a script that:
 
 Counts and displays in the console the total number of categories in ul#categories, i.e., the li.item elements.
-For each li.item element in the ul#categories list, finds and displays in the console the title of the element (the <h2> tag) and the number of items in that category (all <li> elements).
+For each li.item element in the ul#categories list, finds and displays in the console the title of the element (the ```<h2>``` tag) and the number of items in that category (all ```<li>``` elements).
 As a result, the console should display messages like:
 
 ```
@@ -90,16 +90,16 @@ Category: Technologies
 Elements: 5
 ```
 
-# Exercise 2
+## Exercise 2
 The HTML code contains an empty list ul#ingredients.
 
-```html
+```
 <ul id="ingredients"></ul>
 ```
 
 In the JavaScript file, there is an array with the following strings:
 
-```javascript
+```
 const ingredients = [
   "Potatoes",
   "Mushrooms",
@@ -112,25 +112,25 @@ const ingredients = [
 
 Write a script that for each element of the ingredients array:
 
-Creates a separate <li> element. Make sure to use document.createElement().
+Creates a separate ```<li>``` element. Make sure to use ```document.createElement()```
 Adds the ingredient name as text content.
 Adds the class item to the element.
-Then inserts all <li> elements in one operation into the list ul#ingredients.
+Then inserts all ```<li>``` elements in one operation into the list ul#ingredients.
 
-# Exercise 3
+## Exercise 3
 Write a script that creates an image gallery based on an array of data. The HTML has a list ul.gallery.
 
-```html
+```
 <ul class="gallery"></ul>
 ```
 
-Use the array of objects images to create <img> elements nested in <li>. Template strings and the insertAdjacentHTML() method will be helpful.
+Use the array of objects images to create ```<img>``` elements nested in ```<li>```. Template strings and the ```insertAdjacentHTML()``` method will be helpful.
 
 All gallery items should be added to the DOM in one operation.
 
 Add minimal styling for gallery positioning (flexbox or grid) using CSS classes.
 
-```javascript
+```
 const images = [
   {
     url: "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260",
@@ -145,12 +145,12 @@ const images = [
     alt: "Group of Horses Running",
   },
 ];
-``````
+```
 
-# Exercise 4
+## Exercise 4
 The counter consists of a span tag and two buttons that, when pressed, should increase or decrease the value by one.
 
-```html
+```
 <div id="counter">
   <button type="button" data-action="decrement">-1</button>
   <span id="value">0</span>
@@ -164,25 +164,24 @@ Add click handlers on the buttons, inside which you will increase or decrease th
 
 Update the interface with the new value of the counterValue.
 
-# Exercise 5
+## Exercise 5
 Write a script that, when text is entered into input#name-input (input event), replaces the value of span#name-output with the current value from input#name-input. If the input is empty, the span should display "Anonymous".
 
-```html
+```
 <input type="text" id="name-input" placeholder="Please enter your name" />
 <h1>Hello, <span id="name-output">Anonymous</span>!</h1>
 ```
 
-# Exercise 6
+## Exercise 6
 Write a script that, when focus is lost from an input (blur event), checks if the number of entered characters is correct.
 
-```html
+```
 <input
   type="text"
   id="validation-input"
   data-length="6"
   placeholder="Please enter 6 symbols"
 />
-
 ```
 
 The allowed number of characters should be specified in the data-length attribute.
@@ -191,7 +190,7 @@ If the correct number of characters is entered, the border should turn green; ot
 
 To apply the necessary styles, use the CSS classes valid and invalid already added to the source files of this exercise.
 
-```css
+```
 #validation-input {
   border: 3px solid #bdbdbd;
 }
@@ -205,21 +204,21 @@ To apply the necessary styles, use the CSS classes valid and invalid already add
 }
 ```
 
-# Exercise 7
+## Exercise 7
 
 Write a script that responds to changes in the value of input#font-size-control (input event) and modifies the inline styles of span#text by updating the font-size property. As a result, when you slide the scrollbar, the text size will change.
 
-```html
+```
 <input id="font-size-control" type="range" min="16" max="96" />
 <br />
 <span id="text">Abracadabra!</span>
 ```
 
-# Exercise 8
+## Exercise 8
 
 Write a login form control script.
 
-```html
+```
 <form class="login-form">
   <label>
     Email
@@ -241,30 +240,30 @@ If the user has filled in all fields and submitted the form, collect the field v
 
 Display the object with the entered data in the console and clear the values of the form fields using the reset method.
 
-# Exercise 9
+## Exercise 9
 
-Write a script that changes the background color of the <body> element through inline styles when button.change-color is clicked, and displays the color value in span.color.
+Write a script that changes the background color of the ```<body>``` element through inline styles when button.change-color is clicked, and displays the color value in ```span.color```
 
-```html
+```
 <div class="widget">
   <p>Background color: <span class="color">-</span></p>
   <button type="button" class="change-color">Change color</button>
 </div>
 ```
 
-To generate a random color, use getRandomHexColor.
+To generate a random color, use ```getRandomHexColor```
 
-```javascript
+```
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0')}`;
 }
 ```
 
-# Exercise 10 (optional)
+## Exercise 10 (optional)
 
 Write a script to create and delete a collection of elements. The user enters the number of elements into the input and clicks the Create button, after which the collection is displayed on the page. When clicking the Destroy button, the collection of elements will be deleted.
 
-```html
+```
 <div id="controls">
   <input type="number" min="1" max="100" step="1" />
   <button type="button" data-create>Create</button>
@@ -274,12 +273,12 @@ Write a script to create and delete a collection of elements. The user enters th
 <div id="boxes"></div>
 ```
 
-Create a function createBoxes(amount) that takes a number as a parameter. The function will create as many <div> elements as specified in amount and add them to the div#boxes.
+Create a function ```createBoxes(amount)``` that takes a number as a parameter. The function will create as many ```<div>``` elements as specified in amount and add them to the div#boxes.
 
-The dimensions of the first <div> will be 30px by 30px.
+The dimensions of the first ```<div>``` will be 30px by 30px.
 
 Each subsequent element, except the first, should be 10px wider and taller than the previous one.
 
-All elements should have a random background color in HEX format. Use the existing getRandomHexColor function to get a color.
+All elements should have a random background color in HEX format. Use the existing ```getRandomHexColor``` function to get a color.
 
-Write a function destroyBoxes() that will clear the content of div#boxes, thus deleting all created elements.
+Write a function ```destroyBoxes()``` that will clear the content of div#boxes, thus deleting all created elements.
