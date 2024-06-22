@@ -28,7 +28,8 @@ These exercises provided a foundational understanding of front-end web developme
 
 Here are some related projects: [Gallery project](https://github.com/Miro-wq/goit-js-hw-07)
 
-## 🛠 Tools [![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
+## 🛠 Tools 
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,)](https://skillicons.dev)
 
 The key features and tasks implemented in this project are as follows:
 
