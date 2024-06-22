@@ -20,10 +20,6 @@ By completing the exercises, i've gained practical experience in front-end web d
 
 These exercises provided a foundational understanding of front-end web development concepts and equipped me with practical skills to build interactive and responsive web applications.
 
-## License
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-
 ## Related
 
 Here are some related projects: [Gallery project](https://github.com/Miro-wq/goit-js-hw-07)
