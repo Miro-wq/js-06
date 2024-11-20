@@ -85,6 +85,7 @@ Elements: 5
 ```
 
 ![Exercise 2](https://img.shields.io/badge/Exercise%202-purple?style=for-the-badge)
+
 The HTML code contains an empty list ul#ingredients.
 
 ```html
@@ -143,6 +144,7 @@ const images = [
 ```
 
 ![Exercise 4](https://img.shields.io/badge/Exercise%204-purple?style=for-the-badge)
+
 The counter consists of a span tag and two buttons that, when pressed, should increase or decrease the value by one.
 
 ```html
@@ -160,6 +162,7 @@ Add click handlers on the buttons, inside which you will increase or decrease th
 Update the interface with the new value of the counterValue.
 
 ![Exercise 5](https://img.shields.io/badge/Exercise%205-purple?style=for-the-badge)
+
 Write a script that, when text is entered into input#name-input (input event), replaces the value of span#name-output with the current value from input#name-input. If the input is empty, the span should display "Anonymous".
 
 ```html
@@ -201,7 +204,6 @@ To apply the necessary styles, use the CSS classes valid and invalid already add
 ```
 
 ![Exercise 7](https://img.shields.io/badge/Exercise%207-purple?style=for-the-badge)
-
 
 Write a script that responds to changes in the value of input#font-size-control (input event) and modifies the inline styles of span#text by updating the font-size property. As a result, when you slide the scrollbar, the text size will change.
 
@@ -256,7 +258,9 @@ function getRandomHexColor() {
 }
 ```
 
-![Exercise 10](https://img.shields.io/badge/Exercise%2010-purple?style=for-the-badge)(optional)
+![Exercise 10](https://img.shields.io/badge/Exercise%2010-purple?style=for-the-badge)
+
+(optional)
 
 Write a script to create and delete a collection of elements. The user enters the number of elements into the input and clicks the Create button, after which the collection is displayed on the page. When clicking the Destroy button, the collection of elements will be deleted.
 
