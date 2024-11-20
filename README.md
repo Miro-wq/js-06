@@ -29,7 +29,8 @@ Here are some related projects: [Gallery project](https://github.com/Miro-wq/goi
 
 The key features and tasks implemented in this project are as follows:
 
-## Exercise 1
+![Exercise 1 ](https://img.shields.io/badge/Exercise%201-purple?style=for-the-badge)
+
 The HTML code contains a list of categories in ul#categories.
 
 ```html
@@ -83,7 +84,7 @@ Category: Technologies
 Elements: 5
 ```
 
-## Exercise 2
+![Exercise 2](https://img.shields.io/badge/Exercise%202-purple?style=for-the-badge)
 The HTML code contains an empty list ul#ingredients.
 
 ```html
@@ -110,7 +111,8 @@ Adds the ingredient name as text content.
 Adds the class item to the element.
 Then inserts all ```<li>``` elements in one operation into the list ul#ingredients.
 
-## Exercise 3
+![Exercise 3](https://img.shields.io/badge/Exercise%203-purple?style=for-the-badge)
+
 Write a script that creates an image gallery based on an array of data. The HTML has a list ul.gallery.
 
 ```html
@@ -140,7 +142,7 @@ const images = [
 ];
 ```
 
-## Exercise 4
+![Exercise 4](https://img.shields.io/badge/Exercise%204-purple?style=for-the-badge)
 The counter consists of a span tag and two buttons that, when pressed, should increase or decrease the value by one.
 
 ```html
@@ -157,7 +159,7 @@ Add click handlers on the buttons, inside which you will increase or decrease th
 
 Update the interface with the new value of the counterValue.
 
-## Exercise 5
+![Exercise 5](https://img.shields.io/badge/Exercise%205-purple?style=for-the-badge)
 Write a script that, when text is entered into input#name-input (input event), replaces the value of span#name-output with the current value from input#name-input. If the input is empty, the span should display "Anonymous".
 
 ```html
@@ -165,7 +167,8 @@ Write a script that, when text is entered into input#name-input (input event), r
 <h1>Hello, <span id="name-output">Anonymous</span>!</h1>
 ```
 
-## Exercise 6
+![Exercise 6](https://img.shields.io/badge/Exercise%206-purple?style=for-the-badge)
+
 Write a script that, when focus is lost from an input (blur event), checks if the number of entered characters is correct.
 
 ```html
@@ -197,7 +200,8 @@ To apply the necessary styles, use the CSS classes valid and invalid already add
 }
 ```
 
-## Exercise 7
+![Exercise 7](https://img.shields.io/badge/Exercise%207-purple?style=for-the-badge)
+
 
 Write a script that responds to changes in the value of input#font-size-control (input event) and modifies the inline styles of span#text by updating the font-size property. As a result, when you slide the scrollbar, the text size will change.
 
@@ -207,7 +211,7 @@ Write a script that responds to changes in the value of input#font-size-control 
 <span id="text">Abracadabra!</span>
 ```
 
-## Exercise 8
+![Exercise 8](https://img.shields.io/badge/Exercise%208-purple?style=for-the-badge)
 
 Write a login form control script.
 
@@ -233,7 +237,7 @@ If the user has filled in all fields and submitted the form, collect the field v
 
 Display the object with the entered data in the console and clear the values of the form fields using the reset method.
 
-## Exercise 9
+![Exercise 9](https://img.shields.io/badge/Exercise%209-purple?style=for-the-badge)
 
 Write a script that changes the background color of the ```<body>``` element through inline styles when button.change-color is clicked, and displays the color value in ```span.color```
 
@@ -252,7 +256,7 @@ function getRandomHexColor() {
 }
 ```
 
-## Exercise 10 (optional)
+![Exercise 10](https://img.shields.io/badge/Exercise%2010-purple?style=for-the-badge)(optional)
 
 Write a script to create and delete a collection of elements. The user enters the number of elements into the input and clicks the Create button, after which the collection is displayed on the page. When clicking the Destroy button, the collection of elements will be deleted.
 
