@@ -1,8 +1,11 @@
-## About the project
+## 🛠 Tools used
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,)](https://skillicons.dev)
 
-This project involves solving a set of exercises in JavaScript.
+![Description](https://img.shields.io/badge/Description-purple?style=for-the-badge)
+>This project involves solving a set of exercises in JavaScript.
+>
 
-## Lessons Learned
+![Lessons Learned](https://img.shields.io/badge/Lessons%20Learned-purple?style=for-the-badge)
 
 By completing the exercises, i've gained practical experience in front-end web development using HTML, CSS, and JavaScript. Specifically:
 
@@ -20,12 +23,9 @@ By completing the exercises, i've gained practical experience in front-end web d
 
 These exercises provided a foundational understanding of front-end web development concepts and equipped me with practical skills to build interactive and responsive web applications.
 
-## Related
+![Related](https://img.shields.io/badge/Related-purple?style=for-the-badge)
 
 Here are some related projects: [Gallery project](https://github.com/Miro-wq/goit-js-hw-07)
-
-## 🛠 Tools 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,)](https://skillicons.dev)
 
 The key features and tasks implemented in this project are as follows:
 
@@ -70,7 +70,7 @@ Counts and displays in the console the total number of categories in ul#categori
 For each li.item element in the ul#categories list, finds and displays in the console the title of the element (the ```<h2>``` tag) and the number of items in that category (all ```<li>``` elements).
 As a result, the console should display messages like:
 
-```
+```js
 Number of categories: 3
 
 Category: Animals
@@ -86,13 +86,13 @@ Elements: 5
 ## Exercise 2
 The HTML code contains an empty list ul#ingredients.
 
-```
+```html
 <ul id="ingredients"></ul>
 ```
 
 In the JavaScript file, there is an array with the following strings:
 
-```
+```js
 const ingredients = [
   "Potatoes",
   "Mushrooms",
@@ -113,7 +113,7 @@ Then inserts all ```<li>``` elements in one operation into the list ul#ingredien
 ## Exercise 3
 Write a script that creates an image gallery based on an array of data. The HTML has a list ul.gallery.
 
-```
+```html
 <ul class="gallery"></ul>
 ```
 
@@ -123,7 +123,7 @@ All gallery items should be added to the DOM in one operation.
 
 Add minimal styling for gallery positioning (flexbox or grid) using CSS classes.
 
-```
+```js
 const images = [
   {
     url: "https://images.pexels.com/photos/140134/pexels-photo-140134.jpeg?dpr=2&h=750&w=1260",
@@ -143,7 +143,7 @@ const images = [
 ## Exercise 4
 The counter consists of a span tag and two buttons that, when pressed, should increase or decrease the value by one.
 
-```
+```html
 <div id="counter">
   <button type="button" data-action="decrement">-1</button>
   <span id="value">0</span>
@@ -160,7 +160,7 @@ Update the interface with the new value of the counterValue.
 ## Exercise 5
 Write a script that, when text is entered into input#name-input (input event), replaces the value of span#name-output with the current value from input#name-input. If the input is empty, the span should display "Anonymous".
 
-```
+```html
 <input type="text" id="name-input" placeholder="Please enter your name" />
 <h1>Hello, <span id="name-output">Anonymous</span>!</h1>
 ```
@@ -168,7 +168,7 @@ Write a script that, when text is entered into input#name-input (input event), r
 ## Exercise 6
 Write a script that, when focus is lost from an input (blur event), checks if the number of entered characters is correct.
 
-```
+```html
 <input
   type="text"
   id="validation-input"
@@ -183,7 +183,7 @@ If the correct number of characters is entered, the border should turn green; ot
 
 To apply the necessary styles, use the CSS classes valid and invalid already added to the source files of this exercise.
 
-```
+```css
 #validation-input {
   border: 3px solid #bdbdbd;
 }
@@ -201,7 +201,7 @@ To apply the necessary styles, use the CSS classes valid and invalid already add
 
 Write a script that responds to changes in the value of input#font-size-control (input event) and modifies the inline styles of span#text by updating the font-size property. As a result, when you slide the scrollbar, the text size will change.
 
-```
+```html
 <input id="font-size-control" type="range" min="16" max="96" />
 <br />
 <span id="text">Abracadabra!</span>
@@ -211,7 +211,7 @@ Write a script that responds to changes in the value of input#font-size-control 
 
 Write a login form control script.
 
-```
+```html
 <form class="login-form">
   <label>
     Email
@@ -237,7 +237,7 @@ Display the object with the entered data in the console and clear the values of 
 
 Write a script that changes the background color of the ```<body>``` element through inline styles when button.change-color is clicked, and displays the color value in ```span.color```
 
-```
+```html
 <div class="widget">
   <p>Background color: <span class="color">-</span></p>
   <button type="button" class="change-color">Change color</button>
@@ -246,7 +246,7 @@ Write a script that changes the background color of the ```<body>``` element thr
 
 To generate a random color, use ```getRandomHexColor```
 
-```
+```js
 function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0')}`;
 }
@@ -256,7 +256,7 @@ function getRandomHexColor() {
 
 Write a script to create and delete a collection of elements. The user enters the number of elements into the input and clicks the Create button, after which the collection is displayed on the page. When clicking the Destroy button, the collection of elements will be deleted.
 
-```
+```html
 <div id="controls">
   <input type="number" min="1" max="100" step="1" />
   <button type="button" data-create>Create</button>
