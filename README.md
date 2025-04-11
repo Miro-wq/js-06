@@ -1,13 +1,7 @@
-## 🛠 Tools used
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,)](https://skillicons.dev)
+## Description
+This project involves solving a set of exercises in JavaScript.
 
-![Description](https://img.shields.io/badge/Description-purple?style=for-the-badge)
->This project involves solving a set of exercises in JavaScript.
->
-
-![Lessons Learned](https://img.shields.io/badge/Lessons%20Learned-purple?style=for-the-badge)
-
-By completing the exercises, i've gained practical experience in front-end web development using HTML, CSS, and JavaScript. Specifically:
+## Roadmap
 
 1. **HTML Manipulation**: Learning how to manipulate HTML elements using JavaScript, including creating, modifying, and appending elements dynamically to the DOM.
 
@@ -21,15 +15,13 @@ By completing the exercises, i've gained practical experience in front-end web d
 
 6. **Functional Programming**: Appling JavaScript functions to perform repetitive tasks efficiently, such as creating and deleting multiple DOM elements based on user input.
 
-These exercises provided a foundational understanding of front-end web development concepts and equipped me with practical skills to build interactive and responsive web applications.
-
-![Related](https://img.shields.io/badge/Related-purple?style=for-the-badge)
+## Related
 
 Here are some related projects: [Gallery project](https://github.com/Miro-wq/goit-js-hw-07)
 
 The key features and tasks implemented in this project are as follows:
 
-![Exercise 1 ](https://img.shields.io/badge/Exercise%201-purple?style=for-the-badge)
+## Exercise 1
 
 The HTML code contains a list of categories in ul#categories.
 
@@ -84,7 +76,7 @@ Category: Technologies
 Elements: 5
 ```
 
-![Exercise 2](https://img.shields.io/badge/Exercise%202-purple?style=for-the-badge)
+## Exercise 2
 
 The HTML code contains an empty list ul#ingredients.
 
@@ -112,7 +104,7 @@ Adds the ingredient name as text content.
 Adds the class item to the element.
 Then inserts all ```<li>``` elements in one operation into the list ul#ingredients.
 
-![Exercise 3](https://img.shields.io/badge/Exercise%203-purple?style=for-the-badge)
+## Exercise 3
 
 Write a script that creates an image gallery based on an array of data. The HTML has a list ul.gallery.
 
@@ -143,7 +135,7 @@ const images = [
 ];
 ```
 
-![Exercise 4](https://img.shields.io/badge/Exercise%204-purple?style=for-the-badge)
+## Exercise 4
 
 The counter consists of a span tag and two buttons that, when pressed, should increase or decrease the value by one.
 
@@ -161,7 +153,7 @@ Add click handlers on the buttons, inside which you will increase or decrease th
 
 Update the interface with the new value of the counterValue.
 
-![Exercise 5](https://img.shields.io/badge/Exercise%205-purple?style=for-the-badge)
+## Exercise 5
 
 Write a script that, when text is entered into input#name-input (input event), replaces the value of span#name-output with the current value from input#name-input. If the input is empty, the span should display "Anonymous".
 
@@ -170,7 +162,7 @@ Write a script that, when text is entered into input#name-input (input event), r
 <h1>Hello, <span id="name-output">Anonymous</span>!</h1>
 ```
 
-![Exercise 6](https://img.shields.io/badge/Exercise%206-purple?style=for-the-badge)
+## Exercise 6
 
 Write a script that, when focus is lost from an input (blur event), checks if the number of entered characters is correct.
 
@@ -203,7 +195,7 @@ To apply the necessary styles, use the CSS classes valid and invalid already add
 }
 ```
 
-![Exercise 7](https://img.shields.io/badge/Exercise%207-purple?style=for-the-badge)
+## Exercise 7
 
 Write a script that responds to changes in the value of input#font-size-control (input event) and modifies the inline styles of span#text by updating the font-size property. As a result, when you slide the scrollbar, the text size will change.
 
@@ -213,7 +205,7 @@ Write a script that responds to changes in the value of input#font-size-control 
 <span id="text">Abracadabra!</span>
 ```
 
-![Exercise 8](https://img.shields.io/badge/Exercise%208-purple?style=for-the-badge)
+## Exercise 8
 
 Write a login form control script.
 
@@ -239,7 +231,7 @@ If the user has filled in all fields and submitted the form, collect the field v
 
 Display the object with the entered data in the console and clear the values of the form fields using the reset method.
 
-![Exercise 9](https://img.shields.io/badge/Exercise%209-purple?style=for-the-badge)
+## Exercise 9
 
 Write a script that changes the background color of the ```<body>``` element through inline styles when button.change-color is clicked, and displays the color value in ```span.color```
 
@@ -258,7 +250,7 @@ function getRandomHexColor() {
 }
 ```
 
-![Exercise 10](https://img.shields.io/badge/Exercise%2010-purple?style=for-the-badge)
+## Exercise 10
 
 (optional)
 
